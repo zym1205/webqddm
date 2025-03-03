@@ -1,0 +1,50 @@
+<!DOCTYPE html>  
+<html lang="zh">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>导航效果图</title>  
+    <style>  
+        .container {  
+            display: flex;  
+            flex-direction: column;  
+            gap: 10px; /* 每行之间的间隔 */  
+        }  
+        .row {  
+            display: flex;  
+            gap: 10px; /* 每个格子之间的间隔 */  
+        }  
+        .box {  
+            width: 80px;  
+            height: 50px;  
+            background-color: #ff0000;   
+            display: flex;  
+            align-items: center;  
+            justify-content: center;  
+            color: white;  
+            font-weight: bold;  
+        }  
+        .box.yellow {  
+            background-color: #ffa500; 
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="container">  
+        <div class="row">  
+            <div class="box">导航1</div>  
+            <div class="box">导航2</div>  
+            <div class="box">导航3</div>  
+            <div class="box">导航4</div>  
+            <div class="box">导航5</div>  
+        </div>  
+        <div class="row">  
+            <div class="box">导航1</div>  
+            <div class="box">导航2</div>  
+            <div class="box">导航3</div>  
+            <div class="box">导航4</div>  
+            <div class="box yellow">导航5</div>  
+        </div>  
+    </div>  
+</body>  
+<html>
